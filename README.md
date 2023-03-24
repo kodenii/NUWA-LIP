@@ -31,7 +31,7 @@ Experiments show that our DF-VQGAN effectively aids the inpainting process while
 
 ## Environment Setup
 
-We provide a docker image to simplify the environment preparation. You can access the image from [kodenii/godiva:latest](https://hub.docker.com/layers/kodenii/godiva/latest/images/sha256-8f5643528682724c1efcac0b16c3a2da5a46b0e1a915cc01bf10239e9cce9f49?tab=layers).
+We provide a docker image to simplify the environment preparation. You can access the image from [kodenii/nuwalip](https://hub.docker.com/r/kodenii/nuwalip).
 
 To start up the environment, use the following command.
 
