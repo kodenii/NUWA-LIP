@@ -93,7 +93,7 @@ To train MP-S2S, you need to finish the training of DF-VQGAN. As MP-S2S is a lar
 To finetune MP-S2S, you need to specify the pre-trained weights in the arg of ```./config/mps4coco/base.py```. Then, execute the following command.
 
 ```
-./run.sh -a do_train -ltbs 8 -lebs 1 -cf ./config/mps4coco/base.py -m megatron -p custom -crd $NODE_NAME -cmp 9500 -ckpt $CHECKPOINT_FILE
+./run.sh -a do_train -ltbs 8 -lebs 1 -cf ./config/mps4coco/base.py -m megatron -p custom -crd $NODE_NAME -cmp 9500
 ```
 
 ## Inference
@@ -128,7 +128,7 @@ You can download MaskCOCO, MaskFlickr, and MaskVG from the following links.
 To infer the model on our proposed dataset, you can follow this command. You may need to prepare the checkpoint first.
 
 ```
-./run.sh -a eval_visu -p itp -ltbs 1 -lebs 1 -cf ./config/lip4maskcoco/base.py -m megatron -p custom -crd $NODE_NAME -cmp 9500
+./run.sh -a eval_visu -p itp -ltbs 1 -lebs 1 -cf ./config/lip4maskcoco/base.py -m megatron -p custom -crd $NODE_NAME -cmp 9500 -ckpt $CHECKPOINT_FILE
 ```
 
 ### Inference on Customized Dataset
