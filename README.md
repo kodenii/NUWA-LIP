@@ -48,26 +48,26 @@ By default, you need to arrange the training dataset following this directory st
 ```
 data
 |--dataset
- |--imagenet
- |--imagenet_datasets
- |--n01440764
- |--...
- |--imagenet_train.txt
- |--cc
- |--train_image
- |--utils
- |--Train_GCC-training.tsv
- |--Validation_GCC-1.1.0-Validation.tsv
- |--val_image
- |--mscoco
- |--train2017
- |--train2017_stuff
- |--val2017
- |--val2017_stuff
- |--stuff_train2017.json
- |--stuff_val2017.json
- |--train_data.json
- |--val_data.json
+   |--imagenet
+      |--imagenet_datasets
+         |--n01440764
+         |--...
+         |--imagenet_train.txt
+   |--cc
+      |--train_image
+      |--utils
+         |--Train_GCC-training.tsv
+         |--Validation_GCC-1.1.0-Validation.tsv
+      |--val_image
+   |--mscoco
+      |--train2017
+      |--train2017_stuff
+      |--val2017
+      |--val2017_stuff
+      |--stuff_train2017.json
+      |--stuff_val2017.json
+      |--train_data.json
+      |--val_data.json
 ```
 
 You may need to obtain [ImageNet](https://www.image-net.org/index.php), [Conceptual Captions](https://ai.google.com/research/ConceptualCaptions/), and [MSCOCO](https://cocodataset.org) from their offical websites.
@@ -105,15 +105,15 @@ By default, you need to arrange the training dataset following this directory st
 ```
 data
 |--dataset
- |--MaskCOCO
- |--eval_visu
- |--gt
- |--guidance
- |--mask
- |--mask_img
- |--MaskFlickr
- |--MaskVG
- |--CustomDataset
+   |--MaskCOCO
+      |--eval_visu
+         |--gt
+         |--guidance
+         |--mask
+         |--mask_img
+   |--MaskFlickr
+   |--MaskVG
+   |--CustomDataset
 ```
 You can download MaskCOCO, MaskFlickr, and MaskVG from the following links.
 
